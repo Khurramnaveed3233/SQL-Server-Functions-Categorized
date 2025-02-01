@@ -68,7 +68,9 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
     SELECT STDEV(Amount) AS Sales_Deviation
     FROM Orders;
 
-Agar result 7.91 aaye, iska matlab hai ke sales ki values, average ke 7.91 upar ya neeche move karti hain. Agar standard deviation zyada ho, iska matlab hai ke values ek jagah par nahi, balki bohot spread hain. Agar kam ho, toh values ek doosray ke qareeb hain.
+    Result is 119
+
+Agar result 119 aaye, iska matlab hai ke sales ki values average se 119 upar ya neeche move karti hain. Agar standard deviation zyada ho, toh iska matlab hai ke values ek jagah par nahi, balki bohot spread hain. Agar kam ho, toh values ek doosray ke qareeb hain.
 
 Real-life Use:
 Agar ek bookstore ki kisi genre ki book sales ka STDEV zyada hai, iska matlab hai ke kabhi sales bohot high hoti hai aur kabhi bohot low. Isko samajhne ke liye business ko analysis karna chahiye.
