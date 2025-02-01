@@ -48,7 +48,7 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
   
     (16 row(s) affected)
 
-STDEV() function in SQL Server**
+# STDEV() function in SQL Server**
 
    STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta 
    hai.
@@ -90,7 +90,7 @@ Agar sales bohot upar neeche hoti (kabhi 10, kabhi 100 books) toh variation zyad
 
 STDEV() function yahi batata hai ke kisi data ka variation kitna hai. 
 
-VAR() function in SQL Server**
+# VAR() function in SQL Server
 
 VAR() ek SQL function hai jo variance calculate karta hai. Variance ka matlab hai kisi data ki values average se kitni door hain. Yeh humein batata hai ke data kitna stable ya spread hai.
 
