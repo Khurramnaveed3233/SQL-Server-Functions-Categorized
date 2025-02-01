@@ -48,7 +48,7 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
   
     (16 row(s) affected)
 
-# STDEV() function in SQL Server**
+# STDEV() function in SQL Server
 
    STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta 
    hai.
@@ -155,3 +155,42 @@ Agar hum STDEV() lagayen, toh result aayega: 15.8
   - STDEV() ka result chhota hota hai (kyunki square root leta hai).
   - Dono ka kaam same hai, sirf representation ka farq hai.
   - Zyada STDEV ya VAR ka matlab hai zyada variation (data inconsistent hai).
+
+# LTRIM() – Leading Spaces Hataana
+
+LTRIM() kisi string ke start (baayen taraf) se spaces hata deta hai.
+
+    Example: SELECT LTRIM('   Hello World') AS Result;
+
+    Output: 'Hello World' (Shuru ke spaces remove ho gaye)
+
+# RTRIM() – Trailing Spaces Hataana
+
+RTRIM() kisi string ke end (dayen taraf) se spaces hata deta hai.
+
+    Example: SELECT RTRIM('Hello World   ') AS Result;
+    
+    Output: 'Hello World' (Akhri ke spaces remove ho gaye)
+
+# REPLACE() – Text Replace Karna
+
+REPLACE() kisi string ke andar ek word ya character ko doosre se replace karta hai.
+
+    Example: SELECT REPLACE('Hello World', 'World', 'SQL') AS Result;
+
+    Output: 'Hello SQL' (World ko SQL se replace kar diya)
+
+# REPLACE() – Text Replace Karna
+
+PATINDEX() – Pattern Ki Position Dhoondhna
+👉 PATINDEX() kisi string mein ek specific pattern ya word ka starting position batata hai.
+
+    Example: SELECT PATINDEX('%SQL%', 'Hello SQL World') AS Result;
+
+    Output: 7 (SQL ka pehla letter 7th position par hai)
+
+Note: % wildcards use hoti hain, taake partial match bhi search ho sake.
+
+
+
+
