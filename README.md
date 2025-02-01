@@ -2,7 +2,7 @@
 
 1. Aggregate Functions: 
 
-- **A. Use COUNT and DISTINCT**
+- **Usage of COUNT and DISTINCT**
 
 This example returns the number of titles an Adventure Works Cycles employee can hold.
 
