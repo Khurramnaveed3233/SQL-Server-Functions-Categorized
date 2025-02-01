@@ -51,10 +51,11 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
    
 - **STDEV() function in SQL Server**
 
-  STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta hai.
+   STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta 
+   hai.
 
-  Example:
-  Maam lo ek bookstore ki sales ka data hai:
+   Example:
+   Maam lo ek bookstore ki sales ka data hai:
 
     OrderID	   Amount
     1	        20
