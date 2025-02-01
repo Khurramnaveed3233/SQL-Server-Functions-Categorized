@@ -1,6 +1,6 @@
 # SQL-Server-Functions-Categorized
 
-1. Aggregate Functions: 
+# Count Functions in SQL Server 
 
 - **Usage of COUNT and DISTINCT**
 
