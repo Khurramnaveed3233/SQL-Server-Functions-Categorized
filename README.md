@@ -156,13 +156,15 @@ Agar hum STDEV() lagayen, toh result aayega: 15.8
   - Dono ka kaam same hai, sirf representation ka farq hai.
   - Zyada STDEV ya VAR ka matlab hai zyada variation (data inconsistent hai).
 
-# LTRIM() – Leading Spaces Hataana
+# String Functions:
 
-LTRIM() kisi string ke start (baayen taraf) se spaces hata deta hai.
+-  **LTRIM() – Leading Spaces Hataana**
 
-    Example: SELECT LTRIM('   Hello World') AS Result;
+  LTRIM() kisi string ke start (baayen taraf) se spaces hata deta hai.
 
-    Output: 'Hello World' (Shuru ke spaces remove ho gaye)
+     Example: SELECT LTRIM('   Hello World') AS Result;
+
+     Output: 'Hello World' (Shuru ke spaces remove ho gaye)
 
 # RTRIM() – Trailing Spaces Hataana
 
