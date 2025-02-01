@@ -194,7 +194,7 @@ Note: % wildcards use hoti hain, taake partial match bhi search ho sake.
 
 # Date and Time Functions:
 
-- **GETDATE() – Aaj Ki Tareekh Aur Waqt
+- GETDATE() – Aaj Ki Tareekh Aur Waqt
   
    Yeh function current date aur time return karta hai.
   
