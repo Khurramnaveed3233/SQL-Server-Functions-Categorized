@@ -166,7 +166,7 @@ Agar hum STDEV() lagayen, toh result aayega: 15.8
 
      Output: 'Hello World' (Shuru ke spaces remove ho gaye)
 
-# RTRIM() – Trailing Spaces Hataana
+- **RTRIM() – Trailing Spaces Hataana**
 
 RTRIM() kisi string ke end (dayen taraf) se spaces hata deta hai.
 
@@ -174,7 +174,7 @@ RTRIM() kisi string ke end (dayen taraf) se spaces hata deta hai.
     
     Output: 'Hello World' (Akhri ke spaces remove ho gaye)
 
-# REPLACE() – Text Replace Karna
+ - **REPLACE() – Text Replace Karna**
 
 REPLACE() kisi string ke andar ek word ya character ko doosre se replace karta hai.
 
@@ -182,10 +182,11 @@ REPLACE() kisi string ke andar ek word ya character ko doosre se replace karta h
 
     Output: 'Hello SQL' (World ko SQL se replace kar diya)
 
-# PATINDEX() – Pattern Ki Position Dhoondhna
+ - **PATINDEX() – Pattern Ki Position Dhoondhna**
 
 PATINDEX() – Pattern Ki Position Dhoondhna
-👉 PATINDEX() kisi string mein ek specific pattern ya word ka starting position batata hai.
+
+PATINDEX() kisi string mein ek specific pattern ya word ka starting position batata hai.
 
     Example: SELECT PATINDEX('%SQL%', 'Hello SQL World') AS Result;
 
