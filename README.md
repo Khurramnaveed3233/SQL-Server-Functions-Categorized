@@ -1,1 +1,3 @@
-# SQL-Server-Functions-Categorized-
+# SQL-Server-Functions-Categorized
+
+1. Aggregate Functions: 
