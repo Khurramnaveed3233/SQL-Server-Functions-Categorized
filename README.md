@@ -129,7 +129,7 @@ Agar variance kam hai, iska matlab sales ek jaisi chal rahi hain.
 
 Variance ka istemal business analysis mein hota hai, taake yeh samajh sakein ke sales consistent hain ya unpredictable.
 
-Dono functions data ka variation batate hain, lekin tareeqa thoda different hota hai.
+ - **Dono functions data ka variation batate hain, lekin tareeqa thoda different hota hai.**
 
 1️⃣ VAR() (Variance):
 
