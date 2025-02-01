@@ -48,8 +48,7 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
   
     (16 row(s) affected)
 
-   
-- **STDEV() function in SQL Server**
+STDEV() function in SQL Server**
 
    STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta 
    hai.
@@ -90,3 +89,38 @@ Agar sales roz barabar hoti (jaise har din 30 books bikti) toh variation kam hot
 Agar sales bohot upar neeche hoti (kabhi 10, kabhi 100 books) toh variation zyada hota.
 
 STDEV() function yahi batata hai ke kisi data ka variation kitna hai. 
+
+VAR() function in SQL Server**
+
+VAR() ek SQL function hai jo variance calculate karta hai. Variance ka matlab hai kisi data ki values average se kitni door hain. Yeh humein batata hai ke data kitna stable ya spread hai.
+
+Asaan Lafzon Mein Samajhna:
+Socho ek bookstore ki daily sales hain:
+
+    Monday:    10 books
+    Tuesday:   20 books
+    Wednesday: 30 books
+    Thursday:  40 books
+    Friday:    50 books
+
+Yahan sales thodi thodi barhti ja rahi hai, iska matlab kam variation hai, toh variance bhi kam hoga.
+
+Lekin agar sales aise hoti:
+
+    Monday:     5 books
+    Tuesday:    50 books
+    Wednesday:  8 books
+    Thursday:   60 books
+    Friday:     2 books
+
+Toh yeh bohot zyada upar neeche ho rahi hain, iska matlab zyada variation hai, toh variance bhi zyada hoga.
+
+Agar hum Orders table mein se book sales ka variance dekhna chahein:
+
+    SELECT VAR(Amount) AS Sales_Variance  
+    FROM Orders;
+
+Agar variance zyada hai, iska matlab sales bohot unstable hain.
+Agar variance kam hai, iska matlab sales ek jaisi chal rahi hain.
+
+Variance ka istemal business analysis mein hota hai, taake yeh samajh sakein ke sales consistent hain ya unpredictable.
