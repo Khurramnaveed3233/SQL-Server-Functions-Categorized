@@ -1,6 +1,6 @@
 # SQL-Server-Functions-Categorized
 
-# Count Functions in SQL Server 
+#  Aggregate Functions:
 
 - **Usage of COUNT and DISTINCT**
 
@@ -48,7 +48,7 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
   
     (16 row(s) affected)
 
-# STDEV() function in SQL Server
+ - **STDEV() function in SQL Server**
 
    STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta 
    hai.
@@ -56,14 +56,14 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
    Example:
    Maam lo ek bookstore ki sales ka data hai:
 
-    OrderID	   Amount
-    1	        20
-    2 	        25
-    3	        30
-    4	        35
-    5	        40
+       OrderID	   Amount
+       1	        20
+       2 	        25
+       3	        30
+       4	        35
+       5	        40
 
- Agar hum STDEV(Amount) use karein, toh yeh humein batayega ke sales ki amounts ka variation ( farq ) kitna hai.
+Agar hum STDEV(Amount) use karein, toh yeh humein batayega ke sales ki amounts ka variation ( farq ) kitna hai.
 
     SELECT STDEV(Amount) AS Sales_Deviation
     FROM Orders;
@@ -92,7 +92,7 @@ Agar sales bohot upar neeche hoti (kabhi 10, kabhi 100 books) toh variation zyad
 
 STDEV() function yahi batata hai ke kisi data ka variation kitna hai. 
 
-# VAR() function in SQL Server
+ - **VAR() function in SQL Server**
 
 VAR() ek SQL function hai jo variance calculate karta hai. Variance ka matlab hai kisi data ki values average se kitni door hain. Yeh humein batata hai ke data kitna stable ya spread hai.
 
@@ -123,8 +123,6 @@ Agar hum Orders table mein se book sales ka variance dekhna chahein:
     FROM Orders;
 
     14108 
-
-
 
 Agar variance zyada hai, iska matlab sales bohot unstable hain.
 Agar variance kam hai, iska matlab sales ek jaisi chal rahi hain.
