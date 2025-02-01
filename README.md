@@ -191,6 +191,8 @@ PATINDEX() – Pattern Ki Position Dhoondhna
 
 Note: % wildcards use hoti hain, taake partial match bhi search ho sake.
 
-3. Date and Time Functions:
+# Date and Time Functions:
+
+
 
 
