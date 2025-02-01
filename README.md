@@ -180,7 +180,7 @@ REPLACE() kisi string ke andar ek word ya character ko doosre se replace karta h
 
     Output: 'Hello SQL' (World ko SQL se replace kar diya)
 
-# REPLACE() – Text Replace Karna
+# PATINDEX() – Pattern Ki Position Dhoondhna
 
 PATINDEX() – Pattern Ki Position Dhoondhna
 👉 PATINDEX() kisi string mein ek specific pattern ya word ka starting position batata hai.
