@@ -56,12 +56,12 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
   Example:
   Maam lo ek bookstore ki sales ka data hai:
 
-    OrderID	Amount
-    1	    20
-    2 	    25
-    3	    30
-    4	    35
-    5	    40
+    OrderID	   Amount
+    1	        20
+    2 	        25
+    3	        30
+    4	        35
+    5	        40
 
  Agar hum STDEV(Amount) use karein, toh yeh humein batayega ke sales ki amounts ka variation ( farq ) kitna hai.
 
@@ -77,11 +77,11 @@ Variation ka matlab hai farq ya changes kisi bhi cheez ki values mein.
 
 Agar kisi bookstore ki daily sales dekhein:
 
-    Monday: 20 books
-    Tuesday: 50 books
-    Wednesday: 10 books
-    Thursday: 40 books
-    Friday: 30 books
+    Monday:       20 books
+    Tuesday:      50 books
+    Wednesday:    10 books
+    Thursday:     40 books
+    Friday:       30 books
 
 Toh yeh sales ek jaisi nahi hain, kabhi zyada, kabhi kam hoti hain. Yeh variation hai.
 
