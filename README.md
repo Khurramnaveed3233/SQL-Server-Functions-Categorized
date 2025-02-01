@@ -124,3 +124,28 @@ Agar variance zyada hai, iska matlab sales bohot unstable hain.
 Agar variance kam hai, iska matlab sales ek jaisi chal rahi hain.
 
 Variance ka istemal business analysis mein hota hai, taake yeh samajh sakein ke sales consistent hain ya unpredictable.
+
+Dono functions data ka variation batate hain, lekin tareeqa thoda different hota hai.
+
+1️⃣ VAR() (Variance):
+
+Yeh batata hai data ki values average se kitni door hain, lekin square form mein hoti hain.
+Iska result thoda bara number hota hai.
+
+2️⃣ STDEV() (Standard Deviation):
+
+Yeh bhi data ka variation batata hai, lekin square root le leta hai, taake number asani se samajhne laayak ho jaye.
+Iska result chhota aur readable hota hai.
+
+Asaan Example:
+
+Socho ek bookstore ki sales hain: 10, 20, 30, 40, 50
+Agar hum VAR() lagayen, toh result aayega: 250
+Agar hum STDEV() lagayen, toh result aayega: 15.8
+
+📌 Summary:
+
+  - **VAR() ka result bara hota hai (kyunki square hota hai).**
+  - **STDEV() ka result chhota hota hai (kyunki square root leta hai).**
+  - **Dono ka kaam same hai, sirf representation ka farq hai.**
+  - **Zyada STDEV ya VAR ka matlab hai zyada variation (data inconsistent hai).**
