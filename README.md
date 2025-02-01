@@ -47,3 +47,45 @@ This example uses the MIN, MAX, AVG and COUNT functions with the OVER clause, to
     Tool Design                   8.62                  29.8462               23.5054               6
   
     (16 row(s) affected)
+
+   
+  STDEV() function in SQL Server 
+
+  STDEV() ek SQL function hai jo kisi column ki standard deviation calculate karta hai. Yeh batata hai ke values average se kitni door hain. Yeh sirf numeric data ke liye kaam karta hai.
+
+  Example:
+  Maam lo ek bookstore ki sales ka data hai:
+
+    OrderID	Amount
+    1	    20
+    2 	    25
+    3	    30
+    4	    35
+    5	    40
+
+ Agar hum STDEV(Amount) use karein, toh yeh humein batayega ke sales ki amounts ka variation ( farq ) kitna hai.
+
+    SELECT STDEV(Amount) AS Sales_Deviation
+    FROM Orders;
+
+Agar result 7.91 aaye, iska matlab hai ke sales ki values, average ke 7.91 upar ya neeche move karti hain. Agar standard deviation zyada ho, iska matlab hai ke values ek jagah par nahi, balki bohot spread hain. Agar kam ho, toh values ek doosray ke qareeb hain.
+
+Real-life Use:
+Agar ek bookstore ki kisi genre ki book sales ka STDEV zyada hai, iska matlab hai ke kabhi sales bohot high hoti hai aur kabhi bohot low. Isko samajhne ke liye business ko analysis karna chahiye.
+
+Variation ka matlab hai farq ya changes kisi bhi cheez ki values mein.
+
+Agar kisi bookstore ki daily sales dekhein:
+
+    Monday: 20 books
+    Tuesday: 50 books
+    Wednesday: 10 books
+    Thursday: 40 books
+    Friday: 30 books
+
+Toh yeh sales ek jaisi nahi hain, kabhi zyada, kabhi kam hoti hain. Yeh variation hai.
+
+Agar sales roz barabar hoti (jaise har din 30 books bikti) toh variation kam hota.
+Agar sales bohot upar neeche hoti (kabhi 10, kabhi 100 books) toh variation zyada hota.
+
+STDEV() function yahi batata hai ke kisi data ka variation kitna hai. 
