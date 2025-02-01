@@ -151,7 +151,7 @@ Agar hum STDEV() lagayen, toh result aayega: 15.8
 
 📌 Summary:
 
-  - **VAR() ka result bara hota hai (kyunki square hota hai).
-  - **STDEV() ka result chhota hota hai (kyunki square root leta hai).
-  - **Dono ka kaam same hai, sirf representation ka farq hai.
-  - **Zyada STDEV ya VAR ka matlab hai zyada variation (data inconsistent hai).
+  - VAR() ka result bara hota hai (kyunki square hota hai).
+  - STDEV() ka result chhota hota hai (kyunki square root leta hai).
+  - Dono ka kaam same hai, sirf representation ka farq hai.
+  - Zyada STDEV ya VAR ka matlab hai zyada variation (data inconsistent hai).
