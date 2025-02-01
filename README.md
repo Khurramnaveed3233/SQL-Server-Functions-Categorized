@@ -120,6 +120,10 @@ Agar hum Orders table mein se book sales ka variance dekhna chahein:
     SELECT VAR(Amount) AS Sales_Variance  
     FROM Orders;
 
+    14108 
+
+
+
 Agar variance zyada hai, iska matlab sales bohot unstable hain.
 Agar variance kam hai, iska matlab sales ek jaisi chal rahi hain.
 
