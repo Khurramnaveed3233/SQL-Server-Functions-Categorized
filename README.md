@@ -194,6 +194,56 @@ Note: % wildcards use hoti hain, taake partial match bhi search ho sake.
 
 # Date and Time Functions:
 
+- **GETDATE() – Aaj Ki Tareekh Aur Waqt
+  
+   Yeh function current date aur time return karta hai.
+  
+      Example: SELECT GETDATE() AS CurrentDateTime;
+      Output: 2025-01-31 14:30:00
+
+- **GETUTCDATE() – Aaj Ki UTC Tareekh Aur Waqt**
+  
+   Yeh function current date aur time UTC (Universal Time Coordinated) format mein deta hai.
+   Example:
+  
+      SELECT GETUTCDATE() AS CurrentUTC;
+      Output: 2025-01-31 09:30:00 (Jo local time se alag ho sakta hai)
+
+- **DATEADD() – Kisi Date Mein Waqt Ya Din Add Karna**
+
+  Yeh function tareekh ya waqt mein din, mahine, saal ya seconds add karne ke liye use hota hai.
+  Example:
+
+      SELECT DATEADD(DAY, 5, '2025-01-31') AS NewDate;
+      Output: 2025-02-05 (5 din add kar diye)
+  
+- **DATEDIFF() – Do Dates Ka Difference Nikalna**
+
+  Yeh function do dates ke darmiyan farq (difference) batata hai.
+  Example:
+
+      SELECT DATEDIFF(DAY, '2025-01-01', '2025-01-31') AS DaysDifference;
+      Output: 30 (Dono dates ke darmiyan 30 din ka farq hai)
+
+- **DATEPART() – Kisi Date Ka Part Extract Karna**
+
+Yeh function kisi date ka specific part nikalta hai, jaise saal, mahina, ya din.
+Example:
+
+      SELECT DATEPART(YEAR, '2025-01-31') AS YearPart;
+      Output: 2025 (Saal extract kar liya)
+
+- **EOMONTH() – Mahine Ka Akhri Din Nikalna**
+
+   Yeh function kisi bhi date ka last day return karta hai.
+   Example:
+
+      SELECT EOMONTH('2025-01-15') AS LastDayOfMonth;
+      Output: 2025-01-31
+
+
+
+
 
 
 
